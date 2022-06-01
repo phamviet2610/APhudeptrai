@@ -18,12 +18,12 @@ void Ho::bidanh(float x) {
 	setHP(getHP() - x);
 }
 int Botot::check() {
-	if (getHP() < 0 || solanchiudanh == 0) { return 1; }
-	return 0;
+	if (getHP() < 0 || solanchiudanh == 0) { return 0; }
+	return 1;
 }
 int Ho::check() {
-	if (getHP() < 0) { return 1; }
-	return 0;
+	if (getHP() < 0) { return 0; }
+	return 1;
 }
 float Thudu::getDamage() {
 	return damage;
