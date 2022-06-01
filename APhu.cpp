@@ -3,8 +3,8 @@
 #include<iostream>
 using namespace std;
 void APhu:: input() {
-	cout << "\nNhap vao luong HP toi da cua A Phu hien tai: "; cin >> hp;
-	cout << "\nNhap so luong vu khi ma A Phu dem theo: "; cin >> soluongvukhi;
+	cin >> hp;
+	cin >> soluongvukhi;
 }
 int APhu::getSoluongvukhi() { return soluongvukhi; }
 float APhu::getHP() { return hp; }
