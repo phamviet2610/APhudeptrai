@@ -34,7 +34,7 @@ int main() {
 		}
 		else {
 			y[i]->bidanh(x[j]->STsudung());
-			int c = x[i]->getSoLuotSuDung();
+			int c = x[j]->getSoLuotSuDung();
 			x[j]->setSoLuotSuDung(c--);
 			if (c == 0) j++;
 		}
